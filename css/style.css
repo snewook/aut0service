@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Protest+Revolution&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bungee Spice", sans-serif;
+  background-color: rgb(57, 57, 57);
+}
+
+/*header*/
+button {
+  font-family: "Bungee Spice", sans-serif;
+  width: 130px;
+  height: 30px;
+  background-color: #ffffff;
+  padding: 5px;
+  margin-top: 16px;
+  display: inline-block;
+  border: 0px;
+  border-radius: 20px;
+  margin-right: 15px;
+  justify-content: center;
+  align-content: center;
+  transition: 0.8s;
+}
+
+button:hover {
+  background: #ffc4a9;
+}
+
+.logo {
+  transition: 0.8s;
+}
+
+.logo img {
+  width: 125px;
+  height: 55px;
+  margin-left: 50px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/*Поиск*/
+.search {
+  width: 200px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 5px 5px 15px;
+  margin: 16px 7px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldSearch {
+  width: 170px;
+  border: none;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+header {
+  background: linear-gradient(#f29c00, #e85900);
+  padding: 10px 10px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*main*/
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10% 20% 10%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 0px 100px 67px -19px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0px 100px 67px -19px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0px 100px 67px -19px rgba(0, 0, 0, 0.2) inset;
+}
+
+article {
+  width: 760px;
+}
+
+li {
+  list-style-image: url(../img/moon.png);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  padding-top: 30px;
+}
+
+td {
+  border: 2px solid #ff7f27;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.field {
+  border: none;
+  border-radius: 20px;
+  width: 360px;
+  height: 30px;
+  padding-left: 20px;
+  margin: 0px 80px 10px 80px;
+  font-family: "Bungee Spice", sans-serif;
+}
+
+.butt {
+  border: none;
+  width: 360px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  font-family: "Bungee Spice", sans-serif;
+  margin: 10px 80px 10px 90px;
+  transition: 0.8s;
+}
+
+.butt:hover {
+  background-color: #ffc4a9;
+  cursor: pointer;
+}
+
+.Registration {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+.registr * {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.h1MainPage::after {
+  content: url(../img/moon.png);
+}
+
+.h1MainPage::before {
+  content: url(../img/moon.png);
+}
+
+#check1 {
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.grid {
+  max-width: 100%;
+  height: 400px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.img2 {
+  width: 100%;
+}
+
+.img3 {
+  width: 620px;
+  height: 360px;
+  border-radius: 10px;
+  scale: 0.9;
+  transition: 0.8s;
+}
+
+.img3:hover {
+  scale: 1;
+}
+
+/*footer*/
+
+footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer div {
+  height: 2px;
+  width: 100%;
+  background-color: #e85900;
+  margin: 50px 0px 10px 0px;
+}
+
+@media (orientation: landscape) {
+  body {
+    min-width: 1440px;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    min-width: 800px;
+  }
+}
+
+.index {
+  background-image: url(../img/auto.jpg);
+  background-size: cover;
+}
+
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #444444;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #2b2b2b;
+}
+
+th {
+  background-color: #5e2200;
+  color: rgb(255, 94, 0);
+}
+
+tr:nth-child(even) {
+  background-color: #2b2b2b;
+}
+
+tr:hover {
+  background-color: #6e6e6e;
+}
+
+.grids {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
